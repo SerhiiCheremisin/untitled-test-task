@@ -1,0 +1,105 @@
+
+.card-items-wrapper{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 1rem 2rem;
+  &__sort-block{
+    display: flex;
+    height: 3vh;
+    margin-bottom: 2rem;
+    justify-content: space-between;
+
+    button{
+       width: 10rem;
+       transition: .7s ease;
+       transform: scale(1);
+      &:active{
+       transform: scale(1.06);
+      }
+    }
+
+    select{
+      display: flex;
+      width: 20rem;
+      font-size: 2rem;
+      option{
+        font-size: 2rem;
+      }
+    }
+  }
+
+ &__cards{
+ display: flex;
+ justify-content: space-between;
+ flex-wrap: wrap;
+ gap: 2%;
+   .card{
+     display: flex;
+     flex-direction: column;
+     width: calc(90%/3);
+     height: 40rem;
+     cursor: pointer;
+     transition: .8s ease;
+     transform: scale(1);
+     padding: 0 3rem;
+     align-items: center;
+     -webkit-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.26);
+     -moz-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.26);
+     box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.26);
+
+     &:hover{
+     transform: scale(1.02);
+     }
+
+  &__photo{
+    position: relative;
+    height: 50%;
+    width: 100%;
+
+    img{
+      position: absolute;
+      top: 0;
+      left: 0;
+      object-fit: contain;
+      width: 100%;
+      height: 100%;
+
+    }
+
+  }
+     &-name{
+     font-size: 3rem;
+     height: 10%;
+     }
+  &__desc {
+    font-size: 3rem;
+    height: 20%;
+     }
+ &__count{
+   font-size: 3rem;
+   height: 10%;
+ }
+ &__buttons{
+
+    button{
+      width: 10rem;
+      height: 4rem;
+      border-radius: 20px;
+      transition: .6s ease;
+      transform: scale(1);
+      margin-right: 2rem;
+      a{
+        text-decoration: none;
+      }
+
+      &:active{
+        transform: scale(.9);
+      }
+    }
+ }
+
+   }
+}
+
+}

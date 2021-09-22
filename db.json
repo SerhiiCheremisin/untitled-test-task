@@ -1,0 +1,138 @@
+{
+  "products": [
+    {
+      "id": "0",
+      "name": "razor",
+      "quantity": "5",
+      "comments": [],
+      "description": "Some random description for razor",
+      "weight": "300",
+      "imageURL": "/images/parcel.jpg",
+      "longDesc": "This is a long-long description. Lorem Ipsum является текст-заполнитель обычно используется в графических, печать и издательской индустрии для предварительного просмотра макета и визуальных макетах.",
+      "color": "blue",
+      "size": {
+        "width": "800",
+        "height": "600"
+      }
+    },
+    {
+      "id": "1",
+      "name": "vacuum cleaner",
+      "quantity": "8",
+      "comments": [],
+      "description": "Some random description for vacuum cleaner",
+      "weight": "1200",
+      "imageURL": "/images/parcel.jpg",
+      "longDesc": "This is a long-long description. Lorem Ipsum является текст-заполнитель обычно используется в графических, печать и издательской индустрии для предварительного просмотра макета и визуальных макетах.",
+      "color": "red",
+      "size": {
+        "width": "120",
+        "height": "600"
+      }
+    },
+    {
+      "id": "2",
+      "name": "ice box",
+      "quantity": "9",
+      "comments": [],
+      "description": "Some random description for ice box",
+      "weight": "18000g",
+      "imageURL": "/images/parcel.jpg",
+      "longDesc": "This is a long-long description. Lorem Ipsum является текст-заполнитель обычно используется в графических, печать и издательской индустрии для предварительного просмотра макета и визуальных макетах.",
+      "color": "yellow",
+      "size": {
+        "width": "1200",
+        "height": "1600"
+      }
+    },
+    {
+      "id": "3",
+      "name": "steel sword",
+      "quantity": "0",
+      "comments": [],
+      "description": "Some random description for steel sword",
+      "weight": "100",
+      "imageURL": "/images/parcel.jpg",
+      "longDesc": "This is a long-long description. Lorem Ipsum является текст-заполнитель обычно используется в графических, печать и издательской индустрии для предварительного просмотра макета и визуальных макетах.",
+      "color": "steel",
+      "size": {
+        "width": "400",
+        "height": "400"
+      }
+    },
+    {
+      "id": "4",
+      "name": "microwave oven",
+      "quantity": "16",
+      "comments": [],
+      "description": "Some random description for microwave oven",
+      "weight": "3300",
+      "imageURL": "/images/parcel.jpg",
+      "longDesc": "This is a long-long description. Lorem Ipsum является текст-заполнитель обычно используется в графических, печать и издательской индустрии для предварительного просмотра макета и визуальных макетах.",
+      "color": "white",
+      "size": {
+        "width": "500",
+        "height": "300"
+      }
+    },
+    {
+      "id": "5",
+      "name": "phone",
+      "quantity": "99",
+      "comments": [],
+      "description": "Some random description for phone",
+      "weight": "400",
+      "imageURL": "/images/parcel.jpg",
+      "longDesc": "This is a long-long description. Lorem Ipsum является текст-заполнитель обычно используется в графических, печать и издательской индустрии для предварительного просмотра макета и визуальных макетах.",
+      "color": "white",
+      "size": {
+        "width": "80",
+        "height": "10"
+      }
+    },
+    {
+      "id": "6",
+      "name": "headphones",
+      "quantity": "5",
+      "comments": [],
+      "description": "Some random description for headphones",
+      "weight": "140",
+      "imageURL": "/images/parcel.jpg",
+      "longDesc": "This is a long-long description. Lorem Ipsum является текст-заполнитель обычно используется в графических, печать и издательской индустрии для предварительного просмотра макета и визуальных макетах.",
+      "color": "blue",
+      "size": {
+        "width": "40",
+        "height": "40"
+      }
+    },
+    {
+      "id": "7",
+      "name": "laptop",
+      "quantity": "5",
+      "comments": [],
+      "description": "Some random description for laptop",
+      "longDesc": "This is a long-long description. Lorem Ipsum является текст-заполнитель обычно используется в графических, печать и издательской индустрии для предварительного просмотра макета и визуальных макетах.",
+      "color": "black",
+      "weight": "1200",
+      "imageURL": "/images/parcel.jpg",
+      "size": {
+        "width": "1200",
+        "height": "200"
+      }
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "productId": "0",
+      "description": "My first comment",
+      "date": "22.09.2021, 22:32:39"
+    },
+    {
+      "id": 2,
+      "productId": "4",
+      "description": "My second comment",
+      "date": "22.09.2021, 22:37:09"
+    }
+  ]
+}

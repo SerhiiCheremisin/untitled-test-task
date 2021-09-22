@@ -1,0 +1,58 @@
+.card-self-wrapper{
+  display: flex;
+  justify-content: center;
+  padding: 1rem 10%;
+  .card{
+   display: flex;
+   flex-direction: column;
+    &__photo{
+      display: flex;
+      position: relative;
+      justify-content: center;
+      img{
+
+      }
+
+    }
+
+    .long-desc{
+   font-size: 3rem;
+    }
+
+   .characters{
+     display: flex;
+     flex-direction: column;
+     padding: 1rem 0;
+     span{
+      font-size: 3rem;
+      margin-bottom: 1rem;
+      border-bottom: 1px solid gray;
+      cursor: pointer;
+      transition: .5s ease;
+       &:hover{
+       background-color: gray;
+       }
+     }
+   }
+
+    .comments{
+      font-size: 3rem;
+
+      button{
+        width: 20rem;
+        font-size: 2rem;
+        background-color: green;
+      }
+    }
+
+    button{
+    width: 15rem;
+    height: 5rem;
+    font-size: 3.5rem;
+      align-self: center;
+    }
+
+  }
+
+
+}
